@@ -131,7 +131,7 @@ pipeline {
             }
         }
     }
-}'
+}
             }
         }
         stage('Sonarqube Analysis') {
