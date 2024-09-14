@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git credentialsId: 'GITHUB', url: 'pipeline {
+                git credentialsId: 'GITHUB', url: 'https://github.com/CloudShiva2000/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project.git'
     agent any 
     tools {
         jdk 'jdk'
